@@ -4,6 +4,7 @@
 * [Installation](#installation)
 * [Fritzbox](#fritzbox)
 * [Todo](#todo)
+* [License](#license)
 
 # <a name="description"></a>Description
 
@@ -44,4 +45,7 @@ crontab -e
 * OS-X Client (using LaunchAgent)
 * Add Synology NAS Support
 
+# <a name="license"></a>License
+
+* Read [License](https://github.com/ruedigerp/ddclient/blob/master/LICENSE.md)
 

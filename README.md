@@ -12,6 +12,24 @@
 
 ddclient for self hosted dyndns service
 
+Usage:
+```bash
+% ./dyndnsclient.pl -h                                                                                                                   14-04-28 12:36
+usage: dyndnsclient.pl -[|setup|launchagent]
+Update IP/Domain:
+#> dyndnsclient.pl
+
+Running Setup and create configfile:
+#> dyndnsclient.pl -setup
+
+Create LaunchAgent File (Apple OS X):
+#> dyndnsclient.pl -launchagent
+
+Check update/new client version
+#> dyndnsclient.pl -help
+
+```
+
 
 # <a name="team-members"></a>Team Members
 * "Rüdiger Pretzlaff" <rpr@9it.de>

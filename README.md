@@ -1,6 +1,7 @@
 
 * [Description](#description)
 * [Team](#team-members)
+* [Test Client](#testclient)
 * [Installation](#installation)
 * [Fritzbox](#fritzbox)
 * [OS-X LaunchAgent](#osx)
@@ -14,6 +15,14 @@ ddclient for self hosted dyndns service
 
 # <a name="team-members"></a>Team Members
 * "Rüdiger Pretzlaff" <rpr@9it.de>
+
+# <a name="testclient"></a>Test Client 
+
+Send e-mail to "Rüdiger Pretzlaff" <rpr@9it.de> and request a test account.
+
+Tested with Linux, OS X and Fritzbox. 
+
+Tester for Synology station are welcome.
 
 
 # <a name="installation"></a>Installation

@@ -124,6 +124,13 @@ Stop LaunchAgent: launchctl unload ~ / Library/LaunchAgents/dyndns.9it.eu.plist
 * ~~OS-X Client (using LaunchAgent)~~ DONE 
 * Add Synology NAS Support
 
+# <a name="chancelog"></a>Changelog
+
+## 0.1c
+
+* Add Raspberry Support (extra binary)
+* Fix return value in config setup/init.
+
 # <a name="license"></a>License
 
 * Read [License](https://github.com/ruedigerp/ddclient/blob/master/LICENSE.md)

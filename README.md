@@ -41,14 +41,20 @@ crontab -e
 
 # <a name="osx"></a>OS-X LaunchAgent
 
-LaunchAgent plist-File: dyndns.9it.eu.plist
-Edit Line 11, 18 and 20. Replace USERNAME with your username.
+* LaunchAgent
 
-Get your Username in Terminal:
+LaunchAgent plist-File: dyndns.9it.eu.plist
+
+
+* Get your Username in Terminal:
 
 ```bash
 id -u -n
 ```
+
+* Edit .plist-File
+
+Edit lines 11, 18 and 20 in dyndns.9it.eu.plist. Replace USERNAME with your username.
 
 ```xml
 ... 
@@ -64,9 +70,16 @@ id -u -n
 
 * Start LaunchAgent
 
-Copy the plist file to ~ / Library/LaunchAgents/dyndns.9it.eu.plist 
+Copy the plist file to ~/Library/LaunchAgents/dyndns.9it.eu.plist 
 
-Start Launch Agent: launchctl load ~ / Library/LaunchAgents/dyndns.9it.eu.plist
+```bash
+cp dyndns.9it.eu.plist ~/Library/LaunchAgents/dyndns.9it.eu.plist
+```
+
+Start LaunchAgent: launchctl load ~ / Library/LaunchAgents/dyndns.9it.eu.plist
+
+Stop LaunchAgent: launchctl unload ~ / Library/LaunchAgents/dyndns.9it.eu.plist
+
 
 
 # <a name="todo"></a>Todo

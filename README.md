@@ -22,6 +22,7 @@ Copy the files ddclient and DDclient.pl to any location.
 For example: ~/bin/ 
 
 Edit the file and DDclient.pl supply your data.
+Or run: DDclient -setup
 
 Update crontab: 
 crontab -e 
@@ -43,6 +44,13 @@ crontab -e
 # <a name="osx"></a>OS-X LaunchAgent
 
 * LaunchAgent
+
+Run:
+```bash
+DDClient -launchagent
+```
+
+or edit file manuell:
 
 LaunchAgent plist-File: dyndns.9it.eu.plist
 

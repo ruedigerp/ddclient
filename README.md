@@ -39,6 +39,36 @@ crontab -e
 * User Name: YOURUSERNAME 
 * Password: YOURPASSWORD
 
+# <a name="osx"></a>OS-X LaunchAgent
+
+LaunchAgent plist-File: dyndns.9it.eu.plist
+Edit Line 11, 18 and 20. Replace USERNAME with your username.
+
+Get your Username in Terminal:
+
+```bash
+id -u -n
+```
+
+```xml
+... 
+ 11     <string>/Users/USERNAME/bin/dyndnsclient.sh</string>
+...
+...
+ 17     <key>StandardErrorPath</key>
+ 18     <string>/Users/USERNAME/bin/dyndnsclient.sh.log</string>
+ 19     <key>StandardOutPath</key>
+ 20     <string>/Users/USERNAME/bin/dyndnsclient.sh.log</string>
+...
+```
+
+* Start LaunchAgent
+
+Copy the plist file to ~ / Library/LaunchAgents/dyndns.9it.eu.plist 
+
+Start Launch Agent: launchctl load ~ / Library/LaunchAgents/dyndns.9it.eu.plist
+
+
 # <a name="todo"></a>Todo
 
 * add Setup/INIT For the first installation

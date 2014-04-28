@@ -23,7 +23,7 @@ Fritz!Box User
 * Login 
 * Click on "Internet" -> "Share" -> "Dynamic DNS" 
 * Choose from Benutzerdenfiniert. 
-* UpdateURL: http://9it.eu/dyndns/update.pl?apikey=<YOURAPIKEY>&ip=<ipaddr>&ip6=<ip6addr>&user=<username>&password=<pass> 
+* UpdateURL: http://9it.eu/dyndns/update.pl?apikey=&lt;YOURAPIKEY>&ip=&lt;ipaddr>&ip6=&lt;ip6addr>&user=&lt;username>&password=&lt;pass> 
 	* Register with the update URL only APIKEY. All other parameters (username, password, ...) do not change.
 * Domain: <YOURSUBDOMAIN> pretzlaff.co. 
 * User Name: <YOURUSERNAME> 

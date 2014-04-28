@@ -1,12 +1,11 @@
 
-[Description](#description)
-[Team](#team-members)
-[Installation](#installation)
-[Fritzbox](#fritzbox)
-[Todo](#todo)
+* [Description](#description)
+* [Team](#team-members)
+* [Installation](#installation)
+* [Fritzbox](#fritzbox)
+* [Todo](#todo)
 
 # <a name="description"></a>Description
-========
 
 ddclient for self hosted dyndns service
 

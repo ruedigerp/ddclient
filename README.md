@@ -3,6 +3,7 @@
 * [Team](#team-members)
 * [Installation](#installation)
 * [Fritzbox](#fritzbox)
+* [OS-X LaunchAgent](#osx)
 * [Todo](#todo)
 * [License](#license)
 

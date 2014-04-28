@@ -3,6 +3,13 @@ ddclient
 
 ddclient for self hosted dyndns service
 
+[Team](#team-member)
+====
+
+# <a name="team-members"></a>Team Members
+* "Rüdiger Pretzlaff" <rpr@9it.de>
+
+
 Installation
 ============
 

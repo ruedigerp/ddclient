@@ -14,7 +14,7 @@ ddclient for self hosted dyndns service
 
 Usage:
 ```bash
-% ./dyndnsclient.pl -h                                                                                                                   14-04-28 12:36
+% ./dyndnsclient.pl -h
 usage: dyndnsclient.pl -[|setup|launchagent]
 Update IP/Domain:
 #> dyndnsclient.pl

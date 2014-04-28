@@ -102,8 +102,8 @@ Stop LaunchAgent: launchctl unload ~ / Library/LaunchAgents/dyndns.9it.eu.plist
 
 # <a name="todo"></a>Todo
 
-* add Setup/INIT For the first installation
-* OS-X Client (using LaunchAgent)
+* ~~add Setup/INIT For the first installation~~ DONE
+* ~~OS-X Client (using LaunchAgent)~~ DONE 
 * Add Synology NAS Support
 
 # <a name="license"></a>License

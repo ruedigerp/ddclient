@@ -7,7 +7,7 @@ sub new
 {
   my $class = shift;
   my $self = {
-		_version => '0.1c',
+		_version => '0.2c',
     _verbose => '',
     _setup => undef,
     _launchagent => undef,
